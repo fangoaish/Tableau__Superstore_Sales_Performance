@@ -1,8 +1,9 @@
 # Superstore Sales Performance
 
 ## Project Overview
-The Sales Performance Dashboard aims to provide actionable insights into our company's sales performance, focusing on key metrics such as Total Profit, Total Sales, Total Quantity, Profit by Subcategory, Sales by Segment, Order Distribution by Shipping Mode, and Order Distribution by Category. By leveraging these metrics, we aim to enhance our understanding of sales trends, identify areas of improvement, and drive strategic decision-making to optimize revenue and profitability.
-<img width="1076" alt="Superstore Sales Performance" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ab81c4a4-2232-4db0-bbb3-44ae2233a2db">
+The [Sales Performance Dashboard](https://public.tableau.com/app/profile/fang.wen.hsiao/viz/SupersotreSales_17111190533460/SuperstoreSalesPerformance) aims to provide actionable insights into our company's sales performance, focusing on key metrics such as Total Profit, Total Sales, Total Quantity, Profit by Subcategory, Sales by Segment, Order Distribution by Shipping Mode, and Order Distribution by Category. By leveraging these metrics, we aim to enhance our understanding of sales trends, identify areas of improvement, and drive strategic decision-making to optimize revenue and profitability.
+![Superstore Sales Performance](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/824c6010-480a-4933-8a10-2e67e523c235)
+
 
 ## Dashboard Metrics
 1. **Total Profit with % Difference from Previous Year**
@@ -83,11 +84,27 @@ Prior to developing visualizations for these distinct aspects, it was essential 
 To do this, I first created Calculated Fields for the following main KPIs: Total Profit, Total Sales, and Total Quantity Sold:
 - Sales Current Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} THEN [Sales] END
 - Sales Previous Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} - 1 THEN [Sales] END
-- Percent Sales Change YoY: ( SUM ( [Sales Current Year] ) - SUM ( [Sales Previous Year] )) / SUM ( [Sales Previous Year] )
-  - The same logic goes for Total Sales and Total Quantity Sold
+- Sales % Differences: ( SUM ( [Sales Current Year] ) - SUM ( [Sales Previous Year] )) / SUM ( [Sales Previous Year] )
+- Sales YoY%(+): IF [Sales % Differences] >= 0 then [Sales % Differences] END
+- Sales YoY%(-): IF [Sales % Differences] < 0 then [Sales % Differences] END
 
 ![Sales Current Year](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/9940ab14-d836-42f4-8b27-5c374a7071fa)
 
 ![Sales Previouse Year](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/7ec2f5ee-4cd4-450a-8f09-d5b9f264c23a)
 
 ![Sales % Difference](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/94289f72-75c5-4ad2-a8e7-d9ac58e99438)
+
+![Sales YoY% (+)](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/286b8982-b40c-4c86-82b3-4d8b6d13f4b2)
+
+![Sales YoY% (-)](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/39745e2a-5cce-4ecf-81b4-de857ce030c1)
+
+
+Which allowed me to create this visual:
+
+<img width="684" alt="Total Profit" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/78769c4b-6628-4fc9-9d14-58637558c41b">
+
+I then duplicated those calculated fields to create the same for Profits and Quantity:
+<img width="676" alt="Total Sales" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8a0def18-371c-430a-9f2a-6c1c1b9c317c">
+<img width="696" alt="Total Quantity" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8ae1cb26-db9e-4f41-89a2-658cab1dcfef">
+
+This provides a quick and easy snapshot to see how sales, profit, and quantity sold are doing compared to the previous year.
