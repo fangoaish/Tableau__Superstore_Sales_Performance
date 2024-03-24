@@ -67,3 +67,27 @@ The Sales Performance Dashboard aims to provide actionable insights into our com
 - So what?
   - Ensure adequate inventory levels for high-demand categories.
   - Monitor sales trends to anticipate shifts in category popularity.
+
+## Business Objectives
+- Improve overall profitability by optimizing sales strategies and resource allocation.
+- Increase revenue through targeted marketing efforts and product innovation.
+- Enhance customer satisfaction by tailoring services to specific segments and improving delivery experiences.
+- Optimize inventory management to meet demand and minimize stockouts.
+- Drive growth by capitalizing on opportunities in high-profit product categories and customer segments.
+
+## Data Source
+The Sample Data is from [Tableau Superstore Sales](https://public.tableau.com/app/learn/sample-data): Contains information about products, sales, and profits that you can use to identify key areas of improvement within this fictitious company.
+
+## Data Exploration
+Prior to developing visualizations for these distinct aspects, it was essential to generate several calculated fields to filter the sales data from four years down to only two years, encompassing the current year and the preceding year.
+To do this, I first created Calculated Fields for the following main KPIs: Total Profit, Total Sales, and Total Quantity Sold:
+- Sales Current Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} THEN [Sales] END
+- Sales Previous Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} - 1 THEN [Sales] END
+- Percent Sales Change YoY: ( SUM ( [Sales Current Year] ) - SUM ( [Sales Previous Year] )) / SUM ( [Sales Previous Year] )
+  - The same logic goes for Total Sales and Total Quantity Sold
+
+![Sales Current Year](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/9940ab14-d836-42f4-8b27-5c374a7071fa)
+
+![Sales Previouse Year](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/7ec2f5ee-4cd4-450a-8f09-d5b9f264c23a)
+
+![Sales % Difference](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/94289f72-75c5-4ad2-a8e7-d9ac58e99438)
