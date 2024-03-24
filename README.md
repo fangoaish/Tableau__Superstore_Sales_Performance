@@ -157,24 +157,24 @@ We use the Country and State filter in this dashboard to provide users with the 
 
 ## Exploratory Data Analysis
 1. **Total Profit, Sales, and Quantity:**
-- Insight: Our sales dashboard provides a comprehensive view of Total Profit, Sales, and Quantity, allowing us to monitor financial health and performance trends over time.
-- Recommendation: Analyze factors driving changes in profit, sales, and quantity. Identify areas for cost reduction or revenue enhancement to improve profitability.
+    - Insight: Our sales dashboard provides a comprehensive view of Total Profit, Sales, and Quantity, allowing us to monitor financial health and performance trends over time.
+    - Recommendation: Analyze factors driving changes in profit, sales, and quantity. Identify areas for cost reduction or revenue enhancement to improve profitability.
 
 2. **Profit by Subcategory:**
-- Insight: The Profit by Subcategory chart reveals which product categories contribute the most to overall profit.
-- Recommendation: Allocate resources to high-profit subcategories, optimize marketing strategies, and address underperforming areas to maximize profitability.
+    - Insight: The Profit by Subcategory chart reveals which product categories contribute the most to overall profit.
+    - Recommendation: Allocate resources to high-profit subcategories, optimize marketing strategies, and address underperforming areas to maximize profitability.
 
 3. **Sales by Segment:**
-- Insight: Side-by-side area charts for monthly sales by segment highlight top-performing segments and their performance trends.
-- Recommendation: Compare order sizes with established averages to assess deal sizes in the pipeline and ensure alignment with expectations.
+    - Insight: Side-by-side area charts for monthly sales by segment highlight top-performing segments and their performance trends.
+    - Recommendation: Compare order sizes with established averages to assess deal sizes in the pipeline and ensure alignment with expectations.
 
 4. **Order Distribution by Shipping Mode and Category:**
-- Insight: These charts offer insights into order distribution across shipping modes and product categories.
-- Recommendation: Optimize shipping logistics, improve delivery efficiency, and tailor marketing efforts based on popular product categories to drive sales and maximize revenue.
+    - Insight: These charts offer insights into order distribution across shipping modes and product categories.
+    - Recommendation: Optimize shipping logistics, improve delivery efficiency, and tailor marketing efforts based on popular product categories to drive sales and maximize revenue.
 
 5. **Geographic Filter:**
-- Insight: The Country and State filter enables analysis of sales performance at different geographic levels.
-- Recommendation: Tailor strategies to specific geographic markets, identify regional sales patterns, and focus on areas of high performance for targeted growth initiatives.
+    - Insight: The Country and State filter enables analysis of sales performance at different geographic levels.
+    - Recommendation: Tailor strategies to specific geographic markets, identify regional sales patterns, and focus on areas of high performance for targeted growth initiatives.
 
 ## Conclusion 
 The Sales Performance Dashboard provides valuable insights into the company's sales performance across various metrics and geographic regions. By leveraging these insights, we can make informed decisions to optimize revenue, enhance profitability, and improve customer satisfaction. 
