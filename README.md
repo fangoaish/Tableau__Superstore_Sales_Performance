@@ -1,7 +1,7 @@
 # Superstore Sales Performance
 
 ## Project Overview
-The [Sales Performance Dashboard](https://public.tableau.com/app/profile/fang.wen.hsiao/viz/SupersotreSales_17111190533460/SuperstoreSalesPerformance) aims to provide actionable insights into our company's sales performance, focusing on key metrics such as Total Profit, Total Sales, Total Quantity, Profit by Subcategory, Sales by Segment, Order Distribution by Shipping Mode, and Order Distribution by Category. By leveraging these metrics, we aim to enhance our understanding of sales trends, identify areas of improvement, and drive strategic decision-making to optimize revenue and profitability.
+The [Sales Performance Dashboard](https://public.tableau.com/app/profile/fang.wen.hsiao/viz/SupersotreSales_17111190533460/SuperstoreSalesPerformance) aims to provide actionable insights into the company's sales performance, focusing on key metrics such as Total Profit, Total Sales, Total Quantity, Profit by Subcategory, Sales by Segment, Order Distribution by Shipping Mode, and Order Distribution by Category. By leveraging these metrics, we aim to enhance our understanding of sales trends, identify areas of improvement, and drive strategic decision-making to optimize revenue and profitability.
 ![Superstore Sales Performance](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/824c6010-480a-4933-8a10-2e67e523c235)
 
 
@@ -118,5 +118,63 @@ This provides a quick and easy snapshot to see how sales, profit, and quantity s
 ### Profit by Subcategory
 I created a bar chart to understand the profitability of different product subcategories. By visualizing Profit by Subcategory, we can identify which subcategories contribute the most to overall profit and which ones may be underperforming. This insight helps in strategic decision-making, such as allocating resources towards high-profit subcategories, optimizing marketing strategies, or addressing issues in less profitable areas.
 
-- Use tooltip to highlight detailed informations
+- Use tooltip to highlight detailed information
 <img width="349" alt="Profit by subcategory" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ae3ed945-862e-4599-8482-813720d28acf">
+
+
+### Sales by Segment
+Creating side-by-side area charts for monthly sales by segment assists sales managers in promptly identifying the top-performing segments and their performance trends relative to others. By highlighting the maximum point for each segment and comparing it to the average values throughout the current year, managers can effectively gauge whether order sizes align with established averages. This aids in assessing deal sizes in the pipeline and ensures that order sizes are trending in line with existing averages, providing valuable insights for decision-making.
+
+- Use tooltip to highlight detailed information
+
+
+![Sales by Segment](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/e01b916d-6ead-41a2-9a37-9ceee9c77adb)
+
+### Order Distribution by Shipping Mode
+This bar chart provides valuable insights into how orders are distributed across different shipping modes, allowing us to understand which shipping methods are most commonly used by customers. By analyzing this distribution, we can optimize our shipping logistics, improve delivery efficiency, and ensure customer satisfaction by offering preferred shipping options.
+
+- Use tooltip to highlight detailed information
+
+
+![Order Distribution by Shipping Mode](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8c718cbf-eec3-42c5-9baa-36ef6bbdf8e7)
+
+
+### Order Distribution by Category
+This bar chart is valuable for understanding how orders are distributed across different product categories. By analyzing this distribution, we can identify popular product categories and adjust inventory management strategies accordingly. Additionally, it helps us anticipate shifts in category popularity and tailor marketing efforts to promote products in less popular categories, ultimately driving sales and maximizing revenue.
+
+- Use tooltip to highlight detailed information
+
+
+![Order Distribution by Category](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/bb1e859a-076d-484d-87c5-01daf703633c)
+
+
+### Filter
+We use the Country and State filter in this dashboard to provide users with the ability to analyze sales performance and trends at different geographic levels. By filtering data based on country and state, users can narrow down their focus to specific regions of interest. This enables them to gain insights into regional sales patterns, identify areas of high or low performance, and tailor strategies to specific geographic markets. 
+
+
+![Filter](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/d56a784f-06ac-4a1e-8e91-defaa655708a)
+
+
+## Exploratory Data Analysis
+1. **Total Profit, Sales, and Quantity:**
+- Insight: Our sales dashboard provides a comprehensive view of Total Profit, Sales, and Quantity, allowing us to monitor financial health and performance trends over time.
+- Recommendation: Analyze factors driving changes in profit, sales, and quantity. Identify areas for cost reduction or revenue enhancement to improve profitability.
+
+2. **Profit by Subcategory:**
+- Insight: The Profit by Subcategory chart reveals which product categories contribute the most to overall profit.
+- Recommendation: Allocate resources to high-profit subcategories, optimize marketing strategies, and address underperforming areas to maximize profitability.
+
+3. **Sales by Segment:**
+- Insight: Side-by-side area charts for monthly sales by segment highlight top-performing segments and their performance trends.
+- Recommendation: Compare order sizes with established averages to assess deal sizes in the pipeline and ensure alignment with expectations.
+
+4. **Order Distribution by Shipping Mode and Category:**
+- Insight: These charts offer insights into order distribution across shipping modes and product categories.
+- Recommendation: Optimize shipping logistics, improve delivery efficiency, and tailor marketing efforts based on popular product categories to drive sales and maximize revenue.
+
+5. **Geographic Filter:**
+- Insight: The Country and State filter enables analysis of sales performance at different geographic levels.
+- Recommendation: Tailor strategies to specific geographic markets, identify regional sales patterns, and focus on areas of high performance for targeted growth initiatives.
+
+## Conclusion 
+The Sales Performance Dashboard provides valuable insights into the company's sales performance across various metrics and geographic regions. By leveraging these insights, we can make informed decisions to optimize revenue, enhance profitability, and improve customer satisfaction. 
