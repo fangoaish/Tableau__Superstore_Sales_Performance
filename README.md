@@ -80,6 +80,8 @@ The [Sales Performance Dashboard](https://public.tableau.com/app/profile/fang.we
 The Sample Data is from [Tableau Superstore Sales](https://public.tableau.com/app/learn/sample-data): Contains information about products, sales, and profits that you can use to identify key areas of improvement within this fictitious company.
 
 ## Data Exploration
+
+### YoY Percentage Increase in Total Sales, Total Profit and Total Quantity Sold
 Prior to developing visualizations for these distinct aspects, it was essential to generate several calculated fields to filter the sales data from four years down to only two years, encompassing the current year and the preceding year.
 To do this, I first created Calculated Fields for the following main KPIs: Total Profit, Total Sales, and Total Quantity Sold:
 - Sales Current Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} THEN [Sales] END
@@ -101,10 +103,20 @@ To do this, I first created Calculated Fields for the following main KPIs: Total
 
 Which allowed me to create this visual:
 
-<img width="684" alt="Total Profit" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/78769c4b-6628-4fc9-9d14-58637558c41b">
+![Total Sales](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/4f9caac6-a105-491d-bfd4-24dbcddb0c41)
+
+
 
 I then duplicated those calculated fields to create the same for Profits and Quantity:
-<img width="676" alt="Total Sales" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8a0def18-371c-430a-9f2a-6c1c1b9c317c">
-<img width="696" alt="Total Quantity" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8ae1cb26-db9e-4f41-89a2-658cab1dcfef">
+
+![Total Profit](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ef1e5500-5965-422d-9c2b-58fb27c10a2e)
+![Total Quantity](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/fd69cc22-fbd2-43bd-bd4e-acaade78bd20)
+
 
 This provides a quick and easy snapshot to see how sales, profit, and quantity sold are doing compared to the previous year.
+
+### Profit by Subcategory
+I created a bar chart to understand the profitability of different product subcategories. By visualizing Profit by Subcategory, we can identify which subcategories contribute the most to overall profit and which ones may be underperforming. This insight helps in strategic decision-making, such as allocating resources towards high-profit subcategories, optimizing marketing strategies, or addressing issues in less profitable areas.
+
+- Use tooltip to highlight detailed informations
+<img width="349" alt="Profit by subcategory" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ae3ed945-862e-4599-8482-813720d28acf">
