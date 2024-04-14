@@ -82,40 +82,64 @@ The Sample Data is from [Tableau Superstore Sales](https://public.tableau.com/ap
 ## Exploratory Data Analysis
 ### Total Profit with % Difference from Previous Year
 ![Total Profit](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ef1e5500-5965-422d-9c2b-58fb27c10a2e)
+
 **Insight**: Profit growth was consistent and increasing year over year, with significant jumps particularly between 2015 and 2016 (+32.74%) and a smaller yet steady increase into 2017 (+14.24%). This suggests effective cost management or improved sales efficiency.
+
 **Recommendation**: Investigate specific changes or strategies implemented during 2015-2017 that drove profit increases, such as new product launches or enhanced marketing tactics. Continue to focus on these profitable strategies while exploring additional areas for cost reduction, such as sourcing or operational efficiencies.
 
 ### Total Sales with % Difference from Previous Year
 ![Total Sales](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/4f9caac6-a105-491d-bfd4-24dbcddb0c41)
+
 **Insight**: After a slight decrease in sales in 2015 (-2.83%), sales rebounded strongly in the following years, with a nearly 30% increase in 2016 and over 20% in 2017. This indicates recovery and growth, potentially driven by effective sales and marketing strategies.
+
 **Recommendation**: Analyze the sales activities and market conditions that contributed to the recovery and growth post-2015. Double down on successful tactics and explore new markets or segments that could replicate this success. Also, identify and address the causes of the 2015 sales dip to prevent future declines.
+
+
 ### Total Quantity with % Difference from Previous Year
 ![Total Quantity](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/fd69cc22-fbd2-43bd-bd4e-acaade78bd20)
+
 **Insight**: Quantity sold consistently increased each year, with significant growth from 2015 onwards. This reflects growing demand and successful market penetration.
+
 **Recommendation**: Continue to optimize inventory levels to match demand, preventing stock-outs and overstock situations. Explore bundling and cross-selling strategies to leverage the increasing demand, particularly in high-growth years.
+
+
 ### Profit by Subcategory
 <img width="349" alt="Profit by subcategory" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ae3ed945-862e-4599-8482-813720d28acf">
+
 **Insight**: Some subcategories, like Copiers and Phones, are highly profitable, while others like Tables and Bookcases have shown losses. This indicates variability in product performance.
+
 **Recommendation**: Allocate more resources to marketing and developing high-profit subcategories like Copiers and Phones. Evaluate and potentially phase out or revamp underperforming categories like Tables to improve profitability.
+
+
 
 ### Sales by Segment
 ![Sales by Segment](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/e01b916d-6ead-41a2-9a37-9ceee9c77adb)
+
 **Insight**: The Consumer segment drives the majority of sales, significantly outperforming the Corporate and Home Office segments. This suggests that consumer-focused strategies are particularly effective.
+
 **Recommendation**: Customize marketing campaigns to further penetrate the Consumer segment while exploring strategies to increase engagement and sales in the Corporate and Home Office segments. Consider segment-specific promotions or tailored product offerings.
+
+
 
 ### Order Distribution by Shipping Mode
 ![Order Distribution by Shipping Mode](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8c718cbf-eec3-42c5-9baa-36ef6bbdf8e7)
+
 **Insight**: Standard Class is the most common shipping mode, used significantly more than other methods. This preference for standard shipping suggests that speed may be less critical to customers than cost.
+
 **Recommendation**: Optimize logistics to reduce costs and improve efficiency in Standard Class shipping. Evaluate the feasibility of enhancing service levels in faster shipping classes as a competitive advantage.
+
+
 
 ### Order Distribution by Category
 ![Order Distribution by Category](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/bb1e859a-076d-484d-87c5-01daf703633c)
+
 **Insight**: Office Supplies is the most frequently ordered category, followed by Furniture and Technology. This indicates consistent demand and popularity of office supplies.
+
 **Recommendation**: Ensure robust inventory management for Office Supplies to meet demand. Monitor sales trends in Furniture and Technology to adjust stock levels and marketing strategies appropriately, maximizing sales opportunities in these categories as well.
+
 
 ### Filter
 We use the Country and State filter in this dashboard to provide users with the ability to analyze sales performance and trends at different geographic levels. By filtering data based on country and state, users can narrow down their focus to specific regions of interest. This enables them to gain insights into regional sales patterns, identify areas of high or low performance, and tailor strategies to specific geographic markets. 
-
 ![Filter](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/d56a784f-06ac-4a1e-8e91-defaa655708a)
 
 
