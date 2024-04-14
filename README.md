@@ -151,22 +151,22 @@ The exploratory data analysis of the Superstore dataset offers valuable insights
 
    **Strategic Action**: Continue leveraging the strategies that contributed to this rebound, such as targeted marketing campaigns, product diversification, and competitive pricing strategies. Further investigation into the causes of the 2015 dip could provide insights to avoid similar pitfalls in the future.
 
-3. **Product Category Performance**:
+2. **Product Category Performance**:
   The analysis highlights significant disparities in profitability across different product subcategories. High-profit items like Copiers and Phones should be the focus of enhanced marketing efforts, while strategies should be devised to address the poor performance in Tables and Bookcases.
 
    **Strategic Action**: Prioritize high-performing subcategories with increased marketing budgets and sales initiatives. For underperforming subcategories, conduct market research to understand the lackluster performance and consider discontinuation, redesign, or strategic partnerships to enhance these lines.
 
-5. **Segment-Specific Sales Insights**:
+3. **Segment-Specific Sales Insights**:
   The Consumer segment is the predominant revenue generator, indicating effective consumer-targeted strategies. However, there are opportunities to bolster the Corporate and Home Office segments.
 
    **Strategic Action**: Develop tailored marketing and product strategies for the Corporate and Home Office segments to better meet their specific needs and preferences, potentially increasing their contribution to overall sales.
 
-7. **Operational Efficiencies in Shipping**:
+4. **Operational Efficiencies in Shipping**:
   With Standard Class shipping being the most preferred option, there is a clear indication that customers favor cost over delivery speed.
 
-  **Strategic Action**: Optimize Standard Class shipping to become more cost-effective and efficient. Explore opportunities to improve service in faster shipping options as a competitive differentiator, potentially increasing customer satisfaction and attracting a broader customer base.
+    **Strategic Action**: Optimize Standard Class shipping to become more cost-effective and efficient. Explore opportunities to improve service in faster shipping options as a competitive differentiator, potentially increasing customer satisfaction and attracting a broader customer base.
   
-9. **Inventory and Demand Management**:
+5. **Inventory and Demand Management**:
   The consistent increase in the quantity of products sold year-over-year reflects strong demand, particularly for Office Supplies, which dominates order volumes.
 
   **Strategic Action**: Maintain sufficient inventory levels to meet the high demand for Office Supplies and closely monitor trends in Furniture and Technology to adjust stock and marketing efforts accordingly.
